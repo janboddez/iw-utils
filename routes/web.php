@@ -13,11 +13,11 @@
 |
 */
 
-$router->get('/', ['middleware' => 'throttle:2,1', function () use ($router) {
+$router->get('/', ['middleware' => 'throttle:30,1', function () use ($router) {
     return $router->app->version();
 }]);
 
 $router->post('webmention', [
-    'middleware' => 'throttle:2,1',
+    'middleware' => 'throttle:30,1',
     'uses' => 'WebmentionController@handle'
 ]);
