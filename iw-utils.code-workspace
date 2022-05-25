@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "intelephense.diagnostics.undefinedMethods": false
+    }
+}
