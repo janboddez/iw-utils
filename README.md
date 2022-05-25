@@ -1,5 +1,5 @@
 # iw-utils
-IndieWeb utilities
+A very basic Webmention endpoint. I might one day add an IndieAuth and a Micropub server.
 
 ## Installation
 Clone the repository. Run `composer install --no-dev`.
